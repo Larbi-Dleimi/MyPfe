@@ -1,0 +1,16 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost:1433;databaseName=master
+    username: sa
+    password: P@ssw0rd
+
+
+loggin:
+  level:
+    org.springframework.web: DEBUG
